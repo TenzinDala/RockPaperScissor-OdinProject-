@@ -65,7 +65,6 @@ function game() {
     let playerSelection = prompt("Choose Rock, Paper or Scissor")
     for (let round = 0;round<6;round++){
         result = Round(playerSelection,computerSelection)
-        round++
         if(result == "Player Wins!!!") {
             playerScore++
         }
